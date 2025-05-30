@@ -1,13 +1,2 @@
 # HerramientasdeROS2
-Busquen un Rosbag en internet que les parezca interesante y generen un repositorio en GitHub con lo siguiente:
-
-1) En el readme expliquen como descargar el rosbag y que les interesó (no más de un parrafo).
-
-2) Generen un paquete de ROS 2 con sus apellidos y termine en "_pkg".
-
-3) Incluyan un roslaunch que:
-
-Reproduzca automáticamente el Rosbag
-Muestre en RViz el contenido del Rosbag
-Muestre una perspectiva de RQT con información del rosbag y los tópicos.
-Provean el link del repositorio en esta tarea.
+El EuRoC MAV Dataset se puede descargar desde su página oficial, donde puedes elegir entre secuencias de vuelo como V1_01_easy, V1_02_medium, V1_03_difficult, entre otras. Para obtenerlo, descarga el archivo zip correspondiente, descomprímelo y, si lo deseas, utiliza herramientas como euroc2bag para convertir los datos en formato rosbag, compatible con ROS. Este dataset es muy valioso porque contiene datos completos de sensores utilizados en robótica aérea: cámaras estéreo, IMU y datos de posición real (ground truth). Esto lo hace ideal para desarrollar, probar y validar algoritmos de localización, mapeo y control de movimiento en drones y vehículos aéreos autónomos.
